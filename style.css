@@ -94,7 +94,6 @@ article{
     width: 100%;
    
 }
-
 section.service figure{
     display: flex;
     align-items: center;
@@ -122,7 +121,6 @@ h2{
 .text a{
     font-family: monospace;
 }
-
 section.service.service-html figure{
     background: #d0ff94;
 }
@@ -149,9 +147,12 @@ section.contact{
     justify-content: center;
     background: linear-gradient(#1c47ff,#d0ff94,#d6a3fb,#e5e5e5);
     border-radius: 100px;
-
 }
 section.contact a{
-    font-size: 100px;
+    font-size: 180px;
     color: black;
+    transition: color 2s ease;
+}
+section.contact a:hover{
+    color: white;
 }
